@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvtu.mapper.OrderItemMapper">
+    <resultMap id="BaseResultMap" type="com.lvtu.entity.OrderItem">
+        <id column="id" property="id"/>
+        <result column="order_id" property="orderId"/>
+        <result column="product_id" property="productId"/>
+        <result column="product_name" property="productName"/>
+        <result column="ticket_type" property="ticketType"/>
+        <result column="ticket_name" property="ticketName"/>
+        <result column="quantity" property="quantity"/>
+        <result column="unit_price" property="unitPrice"/>
+        <result column="subtotal" property="subtotal"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+</mapper>

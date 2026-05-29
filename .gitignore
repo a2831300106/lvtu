@@ -1,0 +1,65 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+dist/
+build/
+*.local
+
+# npm
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sql
+
+# Travel Server Specific
+travel-server/target/
+travel-server/logs/
+travel-web-h5/node_modules/
+travel-web-h5/dist/
+travel-web-admin/node_modules/
+travel-web-admin/dist/
